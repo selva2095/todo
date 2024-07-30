@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.App{
+   margin: 20px;
+    color: rgb(37, 94, 216);
+    width: 380px;
+    height: auto;
+    border: solid green;
+    padding: 10px;
+    display: flex  1;
+   
+}
+
+#input{
+   
+    width: 160px;
+    height: 34px;
+    background-color: rgb(224, 217, 217);
+    color: rgb(34, 10, 173);
+    border: solid black 1px;
+    border-radius: 7px;
+    box-shadow: 5px 3px 3px  rgb(147, 154, 147);
+    text-align: center;
+    display:  flex ;
+    
+}
+
+#add{
+    height: 24px;
+    width: 75px;
+    margin: 20px;
+    padding: 4px;
+    align-items: center;
+    background-color: rgb(155, 149, 160);
+    color: rgb(20, 20, 19);
+    border: none;
+     border-radius: 5px;
+}
+#list{
+    margin: 25px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    list-style-type:decimal;
+}
+#edit{
+    margin: 8px;
+    padding: 5px;
+    align-items: center;
+    background-color: rgb(226, 220, 231);
+    color: rgb(14, 14, 14);
+    border: none;
+     border-radius: 5px;
+}
+#remove{
+    margin: 8px;
+    padding: 5px;
+    align-items: center;
+    background-color: rgb(226, 220, 231);
+    color: rgb(14, 14, 14);
+    border: none;
+     border-radius: 5px;
+}
+#editInput{
+    width: 160px;
+    height: 34px;
+    background-color: rgb(224, 217, 217);
+    color: rgb(34, 10, 173);
+    border: solid black 1px;
+    border-radius: 7px;
+    box-shadow: 5px 3px 3px  rgb(147, 154, 147);
+    display:  flex ;
+    justify-content:  center;
+    align-content: center;  
+}
+#update{
+    height: 24px;
+    width: 75px;
+    margin: 20px;
+    padding: 6px;
+    align-items: center;
+    background-color: rgb(204, 200, 207);
+    color: rgb(20, 20, 19);
+    border: none;
+     border-radius: 5px;
+}
+#cancel{
+    height: 24px;
+    width: 75px;
+    padding: 6px;
+    align-items: center;
+    background-color: rgb(204, 200, 207);
+    color: rgb(20, 20, 19);
+    border: none;
+     border-radius: 5px;
+}
